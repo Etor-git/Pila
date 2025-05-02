@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #define M 100
 typedef 
 struct {
