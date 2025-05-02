@@ -43,7 +43,8 @@ menu() {
             printf
             ("Ingresa 0 para parar:\n");
             while
-            (scanf("%d", &v) && v != 0) push(&p, v);
+            (scanf("%d", &v) && v != 0) 
+            push(&p, v);
         }
         else if 
         (o == 2) pop(&p);
